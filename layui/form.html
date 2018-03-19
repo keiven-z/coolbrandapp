@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>表单页</title>
+    <link rel="stylesheet" href="../layui/dist/css/layui.css" media="all">
+    <link rel="stylesheet" href="../layui/css/form.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+
+<body>
+<div class="layui-container">
+    <!--头部-->
+    <div class="layui-row">
+        <div class="layui-col-xs6">
+            <div class="grid-demo">
+                <img src="images/logo.png" class="img-100" alt="">
+            </div>
+        </div>
+        <div class="layui-col-xs6 dw">
+            <div class="grid-demo img-10" >
+                <img src="images/dhj.png" class="img-30" alt="">
+                <img src="images/shu.png" alt="" class="img-padding">
+                <img src="images/sg.png" class="img-30" alt="">
+            </div>
+        </div>
+    </div>
+    <!--表单内容-->
+    <div class="this-title1">
+        <h2>需求征询</h2>
+    </div>
+    <div class="c-img1"><img src="images/form.png" class="img-100" alt=""></div>
+    <div class="mg-f30">
+        <p>填写以下表单</p>
+        <p>传奇酷品牌顾问将在两个工作日回复您。</p>
+    </div>
+
+    <!--表单-->
+    <form class="layui-form" action="">
+        <p class="checkbox-1">希望传奇酷品牌为您提供什么服务（可多选）</p>
+        <div class="layui-input-block">
+            <input type="checkbox" name="" title="创造新品牌" lay-skin="primary">
+            <input type="checkbox" name="" title="品牌酷营销" lay-skin="primary">
+        </div>
+        <br>
+        <br>
+        <div class="layui-input-block">
+            <input type="checkbox" name="" title="升级酷品牌" lay-skin="primary">
+            <input type="checkbox" name="" title="品牌战略整合" lay-skin="primary">
+        </div>
+        <div class="any-need"><i class="ii">＊</i>其他需求可以在留言中说明。</div>
+
+        <p class="checkbox-1">所属行业</p>
+        <div class="layui-input-block">
+            <input type="checkbox" name="" title="创造新品牌" lay-skin="primary">
+            <input type="checkbox" name="" title="品牌酷营销" lay-skin="primary">
+        </div>
+        <br>
+        <br>
+        <div class="layui-input-block">
+            <input type="checkbox" name="" title="升级酷品牌" lay-skin="primary">
+            <input type="checkbox" name="" title="品牌战略整合" lay-skin="primary">
+        </div>
+        <div class="any-need"><i class="ii">＊</i>其他需求可以在留言中说明。</div>
+
+        <p class="checkbox-1">联系方式</p>
+        <div class="layui-form-item inline-1">
+            <label class="layui-form-label"><i class="ii">＊</i>姓名</label>
+            <div class="layui-input-inline">
+                <input type="text" name="username" lay-verify="required" placeholder="请输入姓名" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item inline-1">
+            <label class="layui-form-label"><i class="ii">＊</i>职务</label>
+            <div class="layui-input-inline">
+                <input type="text" name="username" lay-verify="required" placeholder="请输入职务" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item inline-1">
+            <label class="layui-form-label"><i class="ii">＊</i>企业名称</label>
+            <div class="layui-input-inline">
+                <input type="text" name="username" lay-verify="required" placeholder="请输入企业名称" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item inline-1">
+            <label class="layui-form-label"><i class="ii">＊</i>回访电话</label>
+            <div class="layui-input-inline">
+                <input type="text" name="username" lay-verify="required|phone" placeholder="请输入回访电话" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item inline-1">
+            <label class="layui-form-label"><i class="ii">＊</i>电子邮箱</label>
+            <div class="layui-input-inline">
+                <input type="text" name="username" lay-verify="required|email" placeholder="请输入电子邮箱" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-input-block">
+            <label class="layui-form-label mg-l20"><i class="ii">＊</i>合作需求</label>
+            <textarea placeholder="请输入合作需求" class="layui-textarea inline-it" lay-verify="required"></textarea>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn c-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary mg-t">重置</button>
+            </div>
+        </div>
+    </form>
+
+    <!--地址及联系方式-->
+    <div class="contact">
+        <div class="contack-l">
+            <div style="overflow: hidden;margin-bottom: 30px">
+                <div style="float: left;width: 20%;"><img class="img-22" src="images/dhdh.png" alt=""></div>
+                <div style="float: left;width: 80%">
+                    <p>品牌咨询专线</p>
+                    <p style="font-size: 18px;font-weight: bolder;">18520371104</p>
+                </div>
+
+            </div>
+            <div style="overflow: hidden;margin-bottom: 30px">
+                <div style="float: left;width: 20%;"><img class="img-22" src="images/dwdw.png" alt=""></div>
+                <div style="float: left;width: 80%">
+                    <p>广州珠海区燕子岗横8号</p>
+                    <p style="font-size: 18px;font-weight: bolder;">金箭创意园1号楼</p>
+                </div>
+
+            </div>
+            <div style="overflow: hidden;margin-bottom: 30px">
+                <div style="float: left;width: 20%;"><img class="img-22" src="images/yxyx.png" alt=""></div>
+                <div style="float: left;width: 80%">
+                    <p>品牌咨询邮箱</p>
+                    <p style="font-size: 18px;font-weight: bolder;">coolbrand@qq.com</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="contack-r">
+            <div>
+                <img src="images/msk.png" alt="" class="img-100">
+                <p>了解品牌动向，关注传奇酷品牌</p>
+            </div>
+        </div>
+    </div>
+
+    <!--尾部-->
+    <div class="c-img"><img src="images/zytu.png" class="img-100" alt=""></div>
+    <div>
+        <h2>致电传奇酷品牌</h2>
+    </div>
+    <div class="c-img"><img src="images/tel.png" class="img-100" alt=""></div>
+    <div class="c-img footer"><img src="images/footzi.png" class="img-100" alt=""></div>
+
+</div>
+
+</body>
+<script src="../layui/dist/layui.js"></script>
+<script>
+    layui.use('form');
+</script>
+</html>

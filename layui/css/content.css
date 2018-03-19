@@ -1,0 +1,49 @@
+
+    /*头部样式*/
+.img-100{
+    width: 100%;
+}
+.img-10{
+    position: absolute;
+    right: -0.8rem;
+    top: 0.5rem;
+}
+.img-100{
+    width: 100%;
+}
+.img-30{
+    width: 28%;
+}
+.img-padding{
+    padding: 0 10px;
+}
+.dw{
+    position: relative;
+}
+
+/*内容样式*/
+
+.this-title1{
+    margin: 20px 0;
+}
+.z-p22{
+    color: #808080;
+    line-height: 1.5rem;
+}
+.mg-20{
+    margin: 20px 0;
+}
+/*尾部样式*/
+
+.footer{
+    margin-bottom: 20px;
+}
+.z-title{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.c-img{
+    text-align: center;
+    padding-top: 10px;
+}

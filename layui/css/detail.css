@@ -1,0 +1,52 @@
+
+.img-100{
+    width: 100%;
+}
+.img-10{
+    position: absolute;
+    right: -0.8rem;
+    top: 0.5rem;
+}
+.img-30{
+    width: 28%;
+}
+.img-padding{
+    padding: 0 10px;
+}
+.dw{
+    position: relative;
+}
+.l-h10{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    height: 3rem;
+    width: 1%;
+}
+.c-img{
+    text-align: center;
+    padding-top: 10px;
+}
+.introduce{
+    margin-top: 20px;
+    line-height: 30px;
+    color: #3E3A39;
+}
+.result{
+    margin-top: 30px;
+    line-height: 30px;
+    color: #595757;
+}
+.content{
+    margin-top: 20px;
+}
+.content>h2{
+    margin-bottom: 20px;
+}
+.content>p{
+    line-height: 30px;
+    color: #595757;
+}
+.footer{
+    margin-bottom: 20px;
+}

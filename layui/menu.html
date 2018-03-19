@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>菜单显示页</title>
+    <link rel="stylesheet" href="../layui/dist/css/layui.css" media="all">
+    <link rel="stylesheet" href="../layui/css/menu.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+
+<body>
+
+    <div class="layui-container">
+        <!--头部-->
+        <div class="layui-row">
+            <div class="layui-col-xs6">
+                <div class="grid-demo">
+                    <img src="images/logo.png" class="img-100" alt="">
+                </div>
+            </div>
+            <div class="layui-col-xs6">
+                <div class="grid-demo dw" >
+                    <img src="images/X.png" class="img-10" alt="" onclick="javascript:history.back(-1);">
+                </div>
+            </div>
+        </div>
+        <ul class="menu-ul">
+            <li><a href="index.html">首页</a></li>
+            <li class="dw">
+                <div class="menu-item">
+                    <a href="#">酷服务</a>
+                    <img src="images/jia.png" alt="" class="img-dw">
+                </div>
+                <div class="submenu hide">
+                    <a href="#">酷服务1</a><a href="#">酷服务2</a><a href="#">酷服务3</a><a href="#">酷服务4</a><a href="#">酷服务3</a>
+                </div>
+            </li>
+            <li class="dw">
+                <div class="menu-item">
+                    <a href="#">酷案例</a>
+                    <img src="images/jia.png" alt="" class="img-dw">
+                </div>
+                <div class="submenu hide">
+                    <a href="list1.html">list1</a><a href="list2.html">list2</a><a href="#">酷服务3</a>
+                </div>
+            </li>
+            <li class="dw">
+                <div class="menu-item">
+                    <a href="#">酷公司</a>
+                    <img src="images/jia.png" alt="" class="img-dw">
+                </div>
+                <div class="submenu hide">
+                    <a href="#">酷服务1</a><a href="#">酷服务2</a><a href="#">酷服务3</a>
+                </div>
+            </li>
+            <li class="dw">
+                <div class="menu-item">
+                    <a href="#">酷思想</a>
+                    <img src="images/jia.png" alt="" class="img-dw">
+                </div>
+                <div class="submenu hide">
+                    <a href="#">酷服务1</a><a href="#">酷服务2</a><a href="#">酷服务3</a>
+                </div>
+            </li>
+            <li class="dw">
+                <div class="menu-item">
+                    <a href="#">联系我们</a>
+                    <img src="images/jia.png" alt="" class="img-dw">
+                </div>
+                <div class="submenu hide">
+                    <a href="#">酷服务1</a><a href="#">酷服务2</a><a href="#">酷服务3</a>
+                </div>
+            </li>
+
+            <li class="c-a">
+                <a href="#"><img src="images/Q.png" alt=""></a>
+                <a href="#"><img src="images/SA.png" alt=""></a>
+                <a href="#"><img src="images/wxx.png" alt=""></a>
+                <a href="#"><img src="images/bea.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+<script>
+
+
+    //触发下拉菜单
+
+    $("li").click(function(){
+
+        //只存在一个显示的submenu
+        if ($('.submenu.show').length) {
+
+            $('.dw').find('.submenu').removeClass('show').addClass('hide');
+
+        }
+        $(this).find('.submenu').removeClass('hide').addClass('show');
+
+        //只存在一个红色X时
+
+        if($('.close-it').length){
+
+            $('.menu-item').find('.close-it').removeAttr('src','images/close.png').attr('src','images/jia.png');
+
+        }
+        $(this).find('.img-dw').attr('src','images/close.png').addClass('close-it');
+
+    });
+
+
+
+
+
+
+
+
+
+</script>
+</html>

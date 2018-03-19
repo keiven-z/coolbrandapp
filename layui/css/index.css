@@ -1,0 +1,162 @@
+
+
+    /*头部样式*/
+.img-100{
+    width: 100%;
+}
+.img-10{
+    position: absolute;
+    right: -0.8rem;
+    top: 0.5rem;
+}
+.img-100{
+    width: 100%;
+}
+.img-30{
+    width: 28%;
+}
+.img-padding{
+    padding: 0 10px;
+}
+.dw{
+    position: relative;
+}
+
+
+/*主页样式*/
+
+.c-h2{
+    display: inline-block;
+}
+.dw-a{
+    position: absolute;
+    right: 0;
+    top: 0.3rem;
+}
+.img-rem{
+    width: 2.5rem;
+    position: absolute;
+    bottom: 10px;
+    left: 4px;
+}
+.jt-dw{
+    position: absolute;
+    right: 14px;
+    bottom: 15px;
+}
+.dw-a>img{
+    padding-right: 5px;
+}
+.each{
+    width: 100%;
+    display: block;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:0px 2px 0px 2px #f2f2f2 ;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    min-height: 300px;//这边存在分辨率下的问题
+}
+.each>p{
+    text-align: left;
+    line-height: 30px;
+    padding: 6px 0 0 15px;
+}
+.c-pic{
+    height: 170px;
+}
+.margin-20{
+    border-radius: 10px;
+    margin: 0 0.5rem;
+    overflow: hidden;
+}
+.mg-20{
+    margin: 20px 0;
+}
+.t-c{
+    text-align: center;
+}
+.evaluate{
+    width: 100%;
+    min-height: 120px;
+    border-radius: 10px;
+    background-color: #3FDD86;
+    overflow: hidden;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.c-content{
+    float: left;
+    width: 80%
+}
+.c-head{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.c-name>span{
+    line-height: 2.5rem;
+}
+.z-span{
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+}
+.c-head>img{
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-top: 0.6rem;
+}
+.change-color1{
+    background-color: #00F7DE;
+}
+.change-color2{
+    background-color: #f7856a;
+}
+.change-color3{
+    background-color: #f74ecb;
+}
+.this-title{
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+.this-p{
+    color: #808080;
+}
+.jt-dw1{
+    position: absolute;
+    width: 1rem;
+    right: 0;
+}
+.layui-carousel {
+    position: relative;
+    left: 0px;
+    top: 20px;
+    background-color: #f8f8f8;
+    height: 200px;
+}
+.layui-carousel-arrow{
+    top:30%;
+}
+.layui-carousel-ind{
+    top:-50px
+}
+#test1{
+    height: 200px!important;
+}
+/*尾部样式*/
+
+.footer{
+    margin-bottom: 20px;
+}
+.z-title{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.c-img{
+    text-align: center;
+    padding-top: 10px;
+}

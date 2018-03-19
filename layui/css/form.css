@@ -1,0 +1,111 @@
+
+    /*头部样式*/
+.img-100{
+    width: 100%;
+}
+.img-10{
+    position: absolute;
+    right: -0.8rem;
+    top: 0.5rem;
+}
+.img-100{
+    width: 100%;
+}
+.img-30{
+    width: 28%;
+}
+.img-padding{
+    padding: 0 10px;
+}
+.dw{
+    position: relative;
+}
+
+/*表单样式*/
+.this-title1{
+    margin: 20px 0;
+}
+.this-title1>h2{
+    font-size: 30px;
+}
+.any-need{
+    margin-left: 50px;
+    color: #808080;
+}
+.mg-f30{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.layui-input-block {
+    margin-left: 60px;
+    min-height: 36px;
+}
+.contact{
+    overflow: hidden;
+    min-height: 200px;
+}
+.contack-l{
+    float: left;
+    width: 60%;
+    min-height: 200px;
+}
+.contack-r{
+    float: left;
+    width: 40%;
+    min-height: 200px;
+}
+.mg-f30>p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.checkbox-1{
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.layui-textarea{
+    display: inline-block;
+    width: 68%;
+}
+.mg-l20{
+    margin-left: -60px;
+}
+.mg-t{
+    margin-top: 10px;
+}
+.c-btn{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.layui-input{
+    width: 80%;
+}
+.layui-form-label{
+    text-align: left;
+    width: 120px;
+}
+.img-22{
+    width: 30px;
+    margin-top: 5px;
+}
+.ii{
+    color: red;
+    font-size: 26px;
+    vertical-align: -webkit-baseline-middle;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+/*尾部样式*/
+
+.footer{
+    margin-bottom: 20px;
+}
+.z-title{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.c-img{
+    text-align: center;
+    padding-top: 10px;
+}
